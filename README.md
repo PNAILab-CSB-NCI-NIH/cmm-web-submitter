@@ -1,5 +1,7 @@
 # Automated Web Submission Script for CMM Analysis
 
+[![build](https://github.com/PNAILab-CSB-NCI-NIH/cmm-web-submitter/actions/workflows/ci.yml/badge.svg)](https://github.com/PNAILab-CSB-NCI-NIH/cmm-web-submitter/actions/workflows/ci.yml)  
+
 This repository contains a Python script that automates the submission of `.pdb` and `.mrc` file pairs to the [CheckMyMetal (CMM) web server](https://cmm.minorlab.org/), triggers analysis, and downloads the resulting JSON output.
 
 It uses Playwright for browser automation and supports parallel execution with asynchronous programming.
