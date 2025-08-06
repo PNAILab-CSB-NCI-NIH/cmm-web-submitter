@@ -369,5 +369,6 @@ def dry(data, args):
     print(f" - Dry-run mode:")
     print(f"   Arguments: {args[1:]}")
     print(f"   Number of folders: {len(data)}")
-    print(f"   Data[0]:")
-    print(json.dumps(data[0], indent=4))
+    if len(data) > 0:
+        print(f"   Data[0]:")
+        print(json.dumps(data[0], indent=4))

@@ -6,7 +6,7 @@ It uses Playwright for browser automation and supports parallel execution with a
 
 ---
 
-## 🧰 Features
+## Features
 
 - Uploads `.pdb` and `.mrc` files to the CMM website.
 - Automates analysis initiation and downloads results as JSON.
@@ -16,7 +16,7 @@ It uses Playwright for browser automation and supports parallel execution with a
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 Your input folder should contain subfolders (one per dataset). Each subfolder must include:
 - Exactly **one `.pdb` file**
@@ -37,7 +37,7 @@ Since the density maps are large files, you can obtain them at [Zenodo](https://
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -79,7 +79,7 @@ We recommend limiting parallel submissions to 4 sessions or fewer to minimize po
 That said, we observed that processing <b>~70 structures with 4 parallel sessions completes in about ~20 minutes</b>, depending on connection speed, indicating that moderate parallelism is effective, efficient, and sufficient without overloading the system.
 
 ---
-## 🚀 Usage
+## Usage
 
 To test the submission, simply run:
 
