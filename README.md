@@ -161,7 +161,7 @@ If CMM-Web-Submitter helped your research, please cite:
 
 Zenodo:
 ```bibtex
-@software{degenhardt2025cmm,
+@software{cmmsub2025,
   author = {Degenhardt, Hermann F. and Degenhardt, Maximilia F. S. and Wang, Yun-Xing},
   title = {CMM Web Submitter: Scripted web interface for parallel file submission and result retrieval from CheckMyMetal (CMM)},
   year = {2025},
