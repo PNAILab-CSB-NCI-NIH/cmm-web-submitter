@@ -112,7 +112,7 @@ python cmm_run.py -i volumes -c 4 -r 1
 > To avoid running the script unintentionlly, the dry-run mode is enabled by default (`-r 0`). you've verified your input setup and are confident everything is correct, set `-r 1` to proceed with the automated submission and result retrieval.
 
 ---
-## 🧪 Optional: Run via Jupyter Notebook
+## Optional: Run via Jupyter Notebook
 For users who prefer an interactive environment, a Jupyter Notebook is provided, that guides you through the submission process step by step.
 
 This is particularly useful for:
