@@ -1,5 +1,9 @@
+import os
+import sys
 import argparse
 import asyncio
+
+sys.path.append(os.path.dirname(__file__))
 import src.utils
 
 async def main(input_folder, format, n_cpus, n_files_per_div, verbose, headless, run):
@@ -8,7 +12,7 @@ async def main(input_folder, format, n_cpus, n_files_per_div, verbose, headless,
     src.utils.TIMEOUT = src.utils.TIMEOUT_30s
 
     if run:
-        out, err = await src.utils.submit(*args)
+        out, _ = await src.utils.submit(*args)
         src.utils.save_json(out, "run.json")
     else: src.utils.dry(data, args)
 
