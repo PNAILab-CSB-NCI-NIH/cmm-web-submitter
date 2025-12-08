@@ -45,8 +45,8 @@ Since the density maps are large files, you can obtain them at [Zenodo](https://
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/auto-cmm-submitter.git
-cd auto-cmm-submitter
+git clone https://github.com/PNAILab-CSB-NCI-NIH/cmm-web-submitter.git
+cd cmm-web-submitter
 ```
 
 ### 2. Create a Conda environment
