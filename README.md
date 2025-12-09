@@ -147,6 +147,7 @@ Preferably, you may also simply add the environment to your current installed ju
 
 - If you get timeout errors, check your internet connection or try increasing `TIMEOUT_*` values in the jupyter notebook.
 - Make sure your input folders contain exactly one `.pdb` and one `.mrc` file each.
+- If you get errors in a few structures only, use the jupyter notebook to filter the submitted data by the error indexes.
 
 ---
 
