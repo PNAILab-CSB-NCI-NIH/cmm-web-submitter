@@ -14,7 +14,6 @@ It uses Playwright for browser automation and supports parallel execution with a
 
 - Uploads `.pdb` and `.mrc` files to the CMM website.
 - Automates analysis initiation and downloads results as JSON.
-- Supports headless mode.
 - Handles batches of submissions with optional parallelism.
 - Verbosity control and dry-run (testing) mode.
 
@@ -37,7 +36,7 @@ volumes/
 │   └── map.mrc
 ```
 
-Since the density maps are large files, you can obtain them at [Zenodo](https://doi.org/10.5281/zenodo.16367407) and place them in the right place. There are 2 examples of density maps and pdb files in the 'volumes' folder in this repository, exemplifying the usage of the automated script.
+Since the density maps are large files, you can obtain them at [Zenodo](https://doi.org/10.5281/zenodo.16367407) and place them in the ./volumes (currently empty). There are 2 examples of density maps and pdb files in the 'volumes' folder at Zenodo, exemplifying the usage of the automated script.
 
 ---
 
