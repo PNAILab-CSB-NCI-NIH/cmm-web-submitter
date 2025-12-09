@@ -53,23 +53,19 @@ cd cmm-web-submitter
 
 ```bash
 conda create -n cmm_submitter python=3.11
+conda activate cmm_submitter
 ```
 
 ### 3. Install requirements with pip
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements
 ```
 
 ### 4. Install Playwright browser drivers
 
 ```bash
 playwright install
-```
-
-### 5. Activate Environment
-```bash
-conda activate cmm_submitter
 ```
 
 ---
