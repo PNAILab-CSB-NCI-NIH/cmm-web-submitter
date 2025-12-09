@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
 
 
-This repository contains a Python script that automates the submission of `.pdb` and `.mrc` file pairs to the [CheckMyMetal (CMM) web server](https://cmm.minorlab.org/), triggers analysis, and downloads the resulting JSON output.
+This repository contains a Python script that automates the submission of `.pdb`/`.cif` and `.mrc` file pairs to the [CheckMyMetal (CMM) web server](https://cmm.minorlab.org/), triggers analysis, and downloads the resulting JSON output.
 
 It uses Playwright for browser automation and supports parallel execution with asynchronous programming.
 
@@ -22,7 +22,7 @@ It uses Playwright for browser automation and supports parallel execution with a
 ## Folder Structure
 
 Your input folder should contain subfolders (one per dataset). Each subfolder must include:
-- Exactly **one `.pdb` file**
+- Exactly **one `.pdb`/`.cif` file**
 - Exactly **one `.mrc` file**
 
 Example:
